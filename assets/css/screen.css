@@ -20,32 +20,38 @@
 
 /*Elements*/
 
-body { padding: 0px; margin: 0px; font: 100 14px/22px Helvetica, Arial, sans-serif; color: #666; }
+body { padding: 0px; margin: 0px; font: 1em/1.4em "MuseoSans_300", Helvetica, Arial, sans-serif; color: #888; }
 h1{display: none;}
-h2, h3 { color: #5EAD11; font:  24px "MuseoSans_900", Helvetica, Arial, sans-serif; text-transform: uppercase;  margin:  10px 0px 20px; text-align: center; }
-h3 {font-size:  20px; color:  #777; margin: 0px 0px 20px;}
-h4 {font-size:  18px; margin: 0px 0px 20px; text-transform: none;}
-a { color:  #5EAD11; font-weight: bold; text-decoration: none; }
+h2, h3 { color: #5EAD11; font:  1.6em "MuseoSans_900", Helvetica, Arial, sans-serif; text-transform: uppercase;  margin:  30px 0px 30px; text-align: center; }
+h3 {font-size: 1.6em; color:  #777;}
+h4 {font-size: 1.1em; margin: 10px 0px 30px; text-transform: uppercase; text-align: center;}
+a { color:  #5EAD11; font-family: "MuseoSans_900", Helvetica, Arial, sans-serif; text-decoration: none; }
 a:hover { color:  #5F5F5F;}
 p { margin: 0px 0px 15px;}
 strong { font-weight:  bold; color:  black; }
 ul { padding:  0px; margin:  0px; }
-ul li { padding: 0px 0px 0px 10px; margin: 0px; list-style: none; background: url(../images/css/sprite.png) no-repeat 0px -288px }
+ul li { padding: 0px 0px 0px 10px; margin: 0px; list-style: none; background: url(../images/css/sprite.png) no-repeat 0px -286px }
 blockquote { font-size:  16px; line-height:  24px; margin:  0px 0px 15px; font-weight:  bold; }
 dl { padding:  0px; margin:  0px; }
-dt { font-size: 14px; font-weight:  bold; color:  #5EAD11; line-height: 18px; }
-dd { color:  #333; margin:  0px; margin-bottom:  15px; }
+dt { font-family: "MuseoSans_900", Helvetica, Arial, sans-serif; color:  #5EAD11;}
+dd { margin:  0px; margin-bottom:  15px; }
 img{border: none;}
 /*Global Sections*/
-    
+#update-form{background: #4f910e; border: 1px solid #4f910e; color: white; padding: 20px; width: 670px; float:left; -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px; margin: 0px 0px 20px;}
+#update-form a{color: white;}
+#update-form input, #update-form label{display: inline; float: left; margin: 5px 3px;}
+#mc_embed_signup{ clear:left; }
+#mce-EMAIL{color: #888; font: 1em/1.4em "MuseoSans_300", Helvetica, Arial, sans-serif; padding: 4px 5px; width: 300px; border: 1px solid  #4f910e; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px;}
+#mc-embedded-subscribe{background: white; color: #5EAD11; border: none; font: 1em/1.4em "MuseoSans_300", Helvetica, Arial, sans-serif; padding: 5px 10px;-webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px;}
+.response{float: left; padding: 10px 0px;}
 .section, .subsection { width: 100%; width: 100%; float: left }
 .section-wrapper { width:  870px; margin:  0px auto; }
 .section-content { width:  870px; float:  left; padding-top:  20px; padding-bottom:  25px; }
-a.button { font: bold 14px Helvetica, Arial, sans-serif; background:  #5EAD11; color:  white; padding:  7px 15px; border:  none; -moz-border-radius: 3px; -webkit-border-radius: 3px; margin:  0px auto; display:  inline-block; }
+a.button { font: 14px "MuseoSans_900", Helvetica, Arial, sans-serif;  background:  #5EAD11; color:  white; padding:  7px 15px; border:  none; -moz-border-radius: 3px; -webkit-border-radius: 3px; margin:  0px auto; display:  inline-block; }
 a:hover.button { background:  #5F5F5F; color:  white; }
 .column { float:  left; }
 .row { float:  left; display: block;}
-.apply, .apply:hover { color:  #FF9933; font-weight: bold; }
+.apply, .apply:hover {background:  #FF9933; color: white; display: block; font-family: "MuseoSans_900", Helvetica, Arial, sans-serif; margin: 15px auto 5px; padding: 7px 10px; text-align: center; text-transform: uppercase; width: 160px;}
 .hide{
   display:  none;
 }
@@ -76,56 +82,64 @@ a:hover.button { background:  #5F5F5F; color:  white; }
 
 /*Specific Sections*/
 #main{}
-#header{/*position:  fixed; background: white;*/}
+#header{}
 #header .section-content { width:  870px; padding-top: 10px; padding-bottom: 10px; }
 
 #header ul li { background:  none; display:  inline; float:  left; }
 
-#utility { float: right; display: none;}
-#utility ul li a { font-size:  12px; color:  #999; font-weight:  normal; }
-#utility ul li a:hover { color:  #5F5F5F; }
 
-#nav { width:  870px; float :left;}
+
+#nav { width:  870px; float :left; margin: 20px 0;}
 #nav ul li a { font: 18px "MuseoSans_900", Helvetica, Arial, sans-serif; text-transform: uppercase; color:  #5EAD11; padding:  30px 5px; height: 20px; display: inline-block; }
 #nav ul li a:hover { color: #5F5F5F }
 #nav ul li.logo a { background:  url(../images/css/sprite.png) no-repeat; width:  100px; }
 #nav ul li.apply a { color:  #AAA;}
 #nav ul li.apply a:hover { color:  #5F5F5F; }
 
-#feature{height: 450px; background: black url(../images/feature/kate.jpg) repeat-x center top; overflow: hidden;}
+#nav .utility li a{color: #888;}
+
+#utility { float: right; display: none;}
+#utility ul li a { font-size:  12px; color:  #999; font-weight:  normal; }
+#utility ul li a:hover { color:  #5F5F5F; }
+.signin{color: #AAA;}
+
+#feature{height: 600px; background: white;) repeat-x center top; overflow: hidden; margin: 0 0 20px;}
 #feature .section-wrapper{width:  1000px;}
-#feature img{width:  1000px; height:  450px;}
-.member{ background:  black repeat-x center top; height:  450px;}
-//.kate{background-image: url(../images/feature/kate.jpg);}
-//.coach{background-image: url(../images/feature/coach.jpg);}
+#feature img{width:  1000px; height:  600px;}
+.member{ background:  black repeat-x center top; height:  600px;}
 #members{margin: 0px auto;}
 
-#overview { background:  #F4F4F4; }
-#overview .section-content { width:  710px; padding-left:  80px; padding-right:  80px; line-height: 28px; font: 20px/1.5em "MuseoSans_300", Helvetica, Arial, sans-serif;}
+#overview { margin: 0 0 30px;}
+#overview .section-content { width:  710px; padding-left:  80px; padding-right:  80px; font-size: 1.2em; line-height: 1.6em;}
 #overview strong{font-family: "MuseoSans_900", Helvetica, Arial, sans-serif; font-weight: normal; color: #5EAC11;}
 #trailer { background:  #111; }
 #trailer .section-content { width:  660px; padding-left:  105px; padding-right:  105px; }
 #trailer h2 { color:  white; }
 .trailer-video {padding:  10px; background:  black; float: left;}
-#coaching .section-content{ width:  710px; padding-left:  80px; padding-right:  80px; }
+#book .section-content, #coaching .section-content{ width:  710px; padding-left:  80px; padding-right:  80px; }
+#book{background: #5ead11; margin: 0px 0px 40px; color: white;}
+#book h3{color: white;}
+.fsField{font: 15px "MuseoSans_300", Helvetica, Arial, sans-serif; padding: 4px 3px; border: 1px solid #CCC;}
 
 #weekends .section-content, #subscriptions .section-content, #contact .section-content { width:  710px; padding-left:  80px; padding-right:  80px; }
 
 #program{padding: 0px 0px 40px;}
-#program .section-content { width:  710px; margin:  0px 60px; padding:  20px 19px 10px; background:  #F4F4F4; border:  1px solid #DDD; -moz-border-radius: 7px; -webkit-border-radius: 7px; }
-#program ul li { font-size:  12px; font-weight: bold; line-height:  16px; width:  215px; padding:  0px 0px 15px 10px; margin:  0px 5px; float:  left; height: 30px;}
+#program .section-content { width:  710px; margin:  0px 60px; padding:  20px 19px 20px; background:  #F4F4F4; border:  1px solid #DDD; -moz-border-radius: 7px; -webkit-border-radius: 7px; }
+#program ul li { font-size:  .8em; width:  212px; padding:  0px 0px 15px 13px; margin: 0px 5px; float:  left; height: 40px;}
 
-#process { /*margin:  30px 0px;*/ }
+#process {}
 
 .subsection{margin:  30px 0px; border-top: 1px solid #EEE; border-bottom: 1px solid #EEE;}
 
 .subsection, #footer { background:  url(../images/css/stripe-2px.gif);}
-.columns .column { width:  425px; padding:  0px 0px; }
+
+.columns .column { width: 425px; padding:  0px 0px; }
 .columns .one{padding:  0px 10px 0px 0px;}
 .columns .two{padding:  0px 0px 0px 10px;}
 #process dd{
-  height:  80px;
+  height: 130px;
 }
+.topic{font-family: "MuseoSans_300", Helvetica, Arial, sans-serif; color:  #5EAD11; display: block;}
 #coach .section-content { -moz-border-radius: 7px; -webkit-border-radius: 7px; background:  #333; color:  white; padding:  0px; margin-bottom:  30px; color:  #DDD; }
 #coach .column { width:  435px; }
 #coach h2 { color:  white; }
@@ -133,24 +147,23 @@ a:hover.button { background:  #5F5F5F; color:  white; }
 #coach strong, #coach a:hover { color:  white; }
 
 #stories .section{ background:  url(../images/css/bg-stories.gif) no-repeat center 140px;}
-/*#stories .section .section-wrapper .section-content{ border-top:  1px dotted #DDD; border-bottom:  1px dotted #DDD; }*/
-#index { width:  560px; padding:  20px 155px; float: left; }
+
+#index { width:  640px; padding:  20px 115px; float: left; }
 #index ul li { display:  inline; background:  none; float: left; width: 70px;}
-#index ul li a { color:  white; background:  url(../images/css/sprite.png) no-repeat 0px -85px; width:  70px; height:  15px; padding: 28px 0px 42px; margin:  5px; display:  inline-block; text-align:  center; font: 11px "MuseoSans_900", Helvetica, Arial, sans-serif; text-transform:  uppercase; float:  left; }
+#index ul li a { color:  white; background:  url(../images/css/sprite.png) no-repeat 0px -85px; width:  70px; height:  15px; padding: 28px 0px 42px; margin: 5px; display:  inline-block; text-align:  center; font: 11px "MuseoSans_900", Helvetica, Arial, sans-serif; text-transform:  uppercase; float:  left; }
 #index ul li a:hover, #index ul li a.active { background-position:  0px -175px; }
 
 
-.stories{width:  870px; float:  left; height: 300px; overflow: hidden; display: none;}
-//.open{width:  870px; float:  left; height: 300px; overflow: hidden;}
+.stories{width:  870px; float:  left; height: 480px; overflow: hidden; display: none;}
 .story { width:  870px; float:  left; display: none;}
-//#story{}
-.story-video { width:  530px; height: 300px; background:  black; float:  left; margin:  0px 10px 0px 0px; color: white;}
-.story-details { width:  320px; height: 300px; float:  left; padding: 0px 0px 0px 10px}
-.story-details dt { border-top:  4px solid #DDD; color:  #5EAD11; padding-top:  5px; }
-.story-details dd { font-size:  24px; }
-#faq{/*background:  url(../images/css/stripe-2px.gif) repeat-x left bottom; */}
-#faq .section-content { /*border-bottom:  5px solid #5EAD11;*/ }
-#faq dd {}
+.story-video { width:  435px; height: 435px; background:  black; float:  left; margin:  0px 0px 0px 0px; color: white;}
+.story-details { width:  355px; float:  left; padding: 0px 40px}
+.story-details dt { color:  #5EAD11; font: 1.6em "MuseoSans_300", Helvetica, Arial, sans-serif; padding-top:  5px; padding-bottom: 5px;}
+.story-details dd {}
+.story-details dd.dream{}
+#faq{}
+#faq .section-content {}
+#faq dd {margin-bottom: 25px;}
 
 #articles { background: #5EAD11; }
 #articles .section-content {}
@@ -159,11 +172,11 @@ a:hover.button { background:  #5F5F5F; color:  white; }
 .big { font-size: 32px; display:  block; margin-bottom:  5px; }
 #extras {margin-bottom: 15px;}
 
-.event {/*width: 640px; padding: 0px 35px;*/}
+.event {}
 .event-image{padding: 0px 0px 10px;}
 .event-name { font-weight:  bold; color:  #5EAD11; display:  block; }
 .event-date { font-style:  italic; display:  block; }
-.event-desc { /*height: 125px;*/}
+.event-desc {}
 .event-link { display:  block;}
 
 #apply h2 { color:  #FF9933; }

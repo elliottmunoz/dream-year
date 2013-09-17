@@ -81,7 +81,7 @@ $(function(){
   
   //Cycle Feauture Images
   $('#members').cycle({
-    fx: 'scrollUp',
+    fx: 'fade',
   	pause: 1,
   	timeout: 8000,
   	delay: -1500,

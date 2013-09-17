@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'MuseoSans_300';
+    src: url('../fonts/MuseoSans_300-webfont.eot');
+    src: url('../fonts/MuseoSans_300-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/MuseoSans_300-webfont.woff') format('woff'),
+         url('../fonts/MuseoSans_300-webfont.ttf') format('truetype'),
+         url('../fonts/MuseoSans_300-webfont.svg#museo_sans_300regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MuseoSans_900';
+    src: url('../fonts/MuseoSans_900-webfont.eot');
+    src: url('../fonts/MuseoSans_900-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/MuseoSans_900-webfont.woff') format('woff'),
+         url('../fonts/MuseoSans_900-webfont.ttf') format('truetype'),
+         url('../fonts/MuseoSans_900-webfont.svg#museo_sans_300regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+	font: 1em MuseoSans_300, Helvetica, Arial, sans-serif;
+}
+
+header ul li{display: inline; font: 1.2em MuseoSans_900, Helvetica, Arial, sans-serif; list-style: none; padding: 0 2%; text-transform: uppercase;}
